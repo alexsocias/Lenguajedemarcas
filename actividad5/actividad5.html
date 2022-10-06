@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACTIVIDAD 5</title>
+    <style> 
+    table, th, td {
+        border: 1px solid;
+        border-collapese: collapse;
+    }
+    td{ 
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
+<h1> EJERCICIO TABLAS </h1>
     <p> tabla con combinación de filas</p>
-  <table class="default">
+  <table>
     <tr> 
         <th>Celda 1</th>
         <th>Celda 2</th>
@@ -23,5 +34,48 @@
         <td> Celda 7</td>
     </tr>
   </table> 
+  <p>tabla con combinación de columnas</p>
+  <table> 
+     <tr> 
+          <th colspan="2">Celda combinada</th>
+          <th> celda normal </th>
+          <th colspan="2"> Celda combinada</th>
+     </tr>
+     <tr> 
+        <td> C1 </td>
+        <td> C2 </td>
+        <td> C3 </td>
+        <td> C4 </td>
+        <td> C5 </td>
+     </tr>
+     <tr>
+        <td>C6</td>
+        <td>C7</td>  
+        <td>C8</td> 
+        <td colspan="2">C9</td>
+     </tr> 
+  </table>
+  <p>Tabla con combinación de filas y columnas</p>
+  <table> 
+    <tr> 
+        <th>Celda1</th>
+        <th>Celda2</th>
+        <th>Celda3</th>
+        <th>Celda4</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Celda5</td>
+        <td>celda6</td>
+        <td colspan="2">Celda7</td> 
+    </tr>
+    <tr> 
+        <td>Celda8</td>
+        <td>Celda9</td>
+        <td rowspan="2">Celda10</td>  
+    </tr>
+    <tr>
+        <td colspan="2">Celda11</td>
+    </tr>
+  </table>
 </body>
 </html>
