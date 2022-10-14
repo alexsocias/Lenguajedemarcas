@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+}
+
+#encabezado{
+    background:rgb(231, 209, 231);
+    font-weight:bold; 
+    padding:15px;
+}
+#enlace{
+    color: black;
+    text-align: center;
+}
+.foto {
+    height: 500px;
+    width: 70%;
+    float:left;
+   }
+#parte1{
+ width: 30%;
+ float: right;
+ text-align: center;
+ font-size: large;
+ background-color: aqua;   
+ height: auto;
+}
+#parte1 > ul > li {
+    list-style: none;
+    text-align:left;
+    
+}
+
+a{
+    color: black;
+    text-decoration:underline;
+}
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }

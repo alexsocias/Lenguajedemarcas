@@ -1,4 +1,5 @@
-#parte1{
+@media (max-width: 600px){
+    #parte1{
     float:left;
     width:20%;
 }
@@ -13,4 +14,7 @@
 .columna {
     width: 33.33%;
     float: left;
+}
+
+
 }
