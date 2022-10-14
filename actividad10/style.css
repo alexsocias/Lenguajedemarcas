@@ -34,7 +34,3 @@ a{
     color: black;
     text-decoration:underline;
 }
-@media (max-width: 600px) {
-    .facet_sidebar {
-      display: none;
-    }
