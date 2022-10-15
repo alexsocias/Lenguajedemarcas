@@ -3,13 +3,15 @@ body{
 }
 
 #encabezado{
-    background:rgb(231, 209, 231);
+    background-color: white;
     font-weight:bold; 
     padding:15px;
 }
 #enlace{
     color: black;
     text-align: center;
+    text-decoration: none;
+
 }
 .foto {
     height: 500px;
@@ -33,4 +35,19 @@ body{
 a{
     color: black;
     text-decoration:underline;
+}
+#parte2 {
+    width: 70%;
+    float: left;
+}
+#parte3{
+    width: 65%;
+    float: left;
+    text-align: center;
+    background-color:fuchsia;
+    padding: 30px;
+}
+#colorsalir {
+    color: white;
+    text-decoration:none;
 }
