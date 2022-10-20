@@ -13,9 +13,9 @@ body{
     text-decoration: none;
 
 }
-.foto {
+#foto {
     height: 500px;
-    width: 70%;
+    width: 100%;
     float:left;
    }
 #parte1{
@@ -35,14 +35,9 @@ body{
 a{
     color: black;
     text-decoration:underline;
-}
-#parte2 {
-    width: 70%;
-    float: left;
+    text-align: center;
 }
 #parte3{
-    width: 65%;
-    float: left;
     text-align: center;
     background-color:fuchsia;
     padding: 30px;
@@ -51,3 +46,9 @@ a{
     color: white;
     text-decoration:none;
 }
+#texto{
+    background-color: white;
+    width: 70%;
+    float: left;
+}
+
