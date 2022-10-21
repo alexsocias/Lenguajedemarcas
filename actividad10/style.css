@@ -1,3 +1,14 @@
+@media (max-width:400px) {
+    #encabezado{
+        width: 100%;
+    }
+    #parte1{
+        width: 100%;
+    }
+    #texto{
+        width: 100%;
+    }
+}
 body{
     background-color: grey;
 }
