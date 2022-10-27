@@ -1,0 +1,7 @@
+<!ELEMENT acon (evento+)>
+<!ELEMENT evento (fecha)>
+<!ATTLIST evento nombre CDATA #REQUIRED>
+<!ELEMENT fecha (dia,mes,año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
