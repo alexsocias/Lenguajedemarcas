@@ -8,7 +8,7 @@ body{
     font-weight:bold; 
     padding:15px;
 }
-#enlace{
+.enlace{
     color: black;
     text-align: center;
     text-decoration: none;
