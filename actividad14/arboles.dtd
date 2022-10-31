@@ -1,1 +1,11 @@
-<!ELEMENT arboles (#PCDATA)>
+<!ELEMENT arboles (modelo+)>
+<!ELEMENT modelo (nombrecom?,vegetacion?,altura?,formaestructura?,color?,coloroto?,resistencia?)>
+<!ATTLIST modelo nombre CDATA #REQUIRED>
+<!ELEMENT nombrecom (#PCDATA)>
+<!ELEMENT vegetacion (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT formaestructura (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT resistencia (#PCDATA)>
+<!ELEMENT coloroto (#PCDATA)>
+<!-- PREGUNTAR A MIGUEL PORQ NO ME FUNCIONA EL INTERROGANTE-->
