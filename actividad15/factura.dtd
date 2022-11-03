@@ -1,4 +1,5 @@
 <!ELEMENT factura (inicio,datoscliente,datosfactura+,total,totalfactura)>
+<!ATTLIST factura num CDATA #REQUIRED>
 <!ELEMENT inicio (empresa,direccion,localidad,cif,telefono,fax,data)>
 <!ELEMENT empresa (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>
@@ -24,8 +25,7 @@
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT iva (#PCDATA)>
 <!ELEMENT importe (#PCDATA)>
-<!ELEMENT total (baseimporte,poriva,iva2)>
+<!ELEMENT total (baseimporte,poriva,iva)>
 <!ELEMENT baseimporte (#PCDATA)>
 <!ELEMENT poriva (#PCDATA)>
-<!ELEMENT iva2 (#PCDATA)>
 <!ELEMENT totalfactura (#PCDATA)>

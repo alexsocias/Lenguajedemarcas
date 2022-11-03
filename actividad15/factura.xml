@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE factura SYSTEM "factura.dtd">
-<factura>
+<factura num="999">
     <inicio>
         <empresa>Equipos digitales SL</empresa>
         <direccion>Av. valladolid</direccion>
@@ -57,7 +57,7 @@
     <total>
         <baseimporte>970.00 EUR</baseimporte>
         <poriva>16.0</poriva>
-        <iva2>155.20 EUR</iva2>
+        <iva>155.20 EUR</iva>
     </total>
     <totalfactura>1125.20 EUR</totalfactura>
 </factura>
