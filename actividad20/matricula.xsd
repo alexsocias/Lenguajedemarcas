@@ -13,7 +13,7 @@
                             <xs:element name="domicilios">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="domicilio"></xs:element>
+                                        <xs:element maxOccurs="unbounded" name="domicilio"></xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="tipo">
                                         <xs:simpleType>
