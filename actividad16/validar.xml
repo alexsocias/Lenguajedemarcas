@@ -2,7 +2,7 @@
 <!DOCTYPE matricula SYSTEM "validar.dtd">
 <matricula>
     <personal>
-        <dni>99223366M</dni>
+        <dni></dni>
         <nombre>Juan Pardo Martín</nombre>
         <titulacion>Ingeniería Informática</titulacion>
         <curso_academico>1997/1998</curso_academico>

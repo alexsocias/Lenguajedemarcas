@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE factura SYSTEM "factura.dtd">
 <factura num="999">
-    <inicio>
+    <Inicio>
         <empresa>Equipos digitales SL</empresa>
         <direccion>Av. valladolid</direccion>
         <localidad>Madrid 28015</localidad>
@@ -11,14 +11,14 @@
         <data>
             <fecha>12/01/2005</fecha>
             <pedido>731</pedido>
-            <pago>EFECTIVO</pago>
+            <pago>EFECTIVO</pago>   
         </data>
-    </inicio>
+    </Inicio>
     <datoscliente>
         <numcliente>879</numcliente>
         <nombre>Dario Buenos Gutierrez</nombre>
         <direccionenvio>av oporto n7/4d</direccionenvio>
-        <poblacion>madrid</poblacion>
+        <población>madrid</población>
         <codpostal>28043</codpostal>
         <provincia>Madrid</provincia>
     </datoscliente>

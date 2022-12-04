@@ -1,6 +1,6 @@
-<!ELEMENT factura (inicio,datoscliente,datosfactura+,total,totalfactura)>
+<!ELEMENT factura (Inicio,datoscliente,datosfactura+,total,totalfactura)>
 <!ATTLIST factura num CDATA #REQUIRED>
-<!ELEMENT inicio (empresa,direccion,localidad,cif,telefono,fax,data)>
+<!ELEMENT Inicio (empresa,direccion,localidad,cif,telefono,fax,data)>
 <!ELEMENT empresa (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT localidad (#PCDATA)>
@@ -11,11 +11,11 @@
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT pedido (#PCDATA)>
 <!ELEMENT pago (#PCDATA)>
-<!ELEMENT datoscliente (numcliente,nombre,direccionenvio,poblacion,codpostal,provincia)>
+<!ELEMENT datoscliente (numcliente,nombre,direccionenvio,población,codpostal,provincia)>
 <!ELEMENT numcliente (#PCDATA)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT direccionenvio (#PCDATA)>
-<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT población (#PCDATA)>
 <!ELEMENT codpostal (#PCDATA)>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT datosfactura (ref,descripcion,cant,precio,iva,importe)>
