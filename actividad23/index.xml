@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<!DOCTYPE factura SYSTEM "index.dtd">
+<factura num="999">
+    <Inicio>
+        <empresa>Equipos digitales SL</empresa>
+        <direccion>Av. valladolid</direccion>
+        <localidad>Madrid 28015</localidad>
+        <cif>q9876543</cif>
+        <telefono>917776688</telefono>
+        <fax>917776699</fax>
+        <data>
+            <fecha>12/01/2005</fecha>
+            <pedido>731</pedido>
+            <pago>EFECTIVO</pago>   
+        </data>
+    </Inicio>
+    <datoscliente>
+        <numcliente>879</numcliente>
+        <nombre>Dario Buenos Gutierrez</nombre>
+        <direccionenvio>av oporto n7/4d</direccionenvio>
+        <población>madrid</población>
+        <codpostal>28043</codpostal>
+        <provincia>Madrid</provincia>
+    </datoscliente>
+    <datosfactura>
+        <ref>MII93000F/8</ref>
+        <descripcion>MICRO PENTIU IV 300MHZ FB800</descripcion>
+        <cant>1</cant>
+        <precio>230 EUR</precio>
+        <iva>16.0</iva>
+        <importe>266.80 EUR</importe>
+    </datosfactura>
+    <datosfactura>
+        <ref>MB8QDIP4</ref>
+        <descripcion>PLACA BASE QDI P4</descripcion>
+        <cant>1</cant>
+        <precio>180 EUR</precio>
+        <iva>16.0</iva>
+        <importe>208.80</importe>
+    </datosfactura>
+    <datosfactura>
+        <ref>MEDD512M32</ref>
+        <descripcion>DIMM DDR 512MB 3200</descripcion>
+        <cant>2</cant>
+        <precio>40 EUR</precio>
+        <iva>16.0</iva>
+        <importe>92.80</importe>
+    </datosfactura>
+    <datosfactura>
+        <ref>HD250GSA7</ref>
+        <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+        <cant>4</cant>
+        <precio>120 EUR</precio>
+        <iva>16.0</iva>
+        <importe>556.80 EUR</importe>
+    </datosfactura>
+    <total>
+        <baseimporte>970.00 EUR</baseimporte>
+        <poriva>16.0</poriva>
+        <iva>155.20 EUR</iva>
+    </total>
+    <totalfactura>1125.20 EUR</totalfactura>
+</factura>
