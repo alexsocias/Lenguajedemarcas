@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="baile.xsl" type="text/xsl"?>
+<academia nombre="Academia de baile">
+    <baile>
+        <nombre>Bachata</nombre>
+        <precio cuota="mensual" pago="tarjeta">10</precio>
+        <plazas>20</plazas>
+        <inicio>18:00</inicio>
+        <finalizacion>20:00</finalizacion>
+        <dias>3</dias>
+        <profesor>Fiona</profesor>
+        <sala>1</sala>
+    </baile>
+    <baile>
+        <nombre>Tango</nombre>
+        <precio cuota="semanal" pago="efectivo">8</precio>
+        <plazas>15</plazas>
+        <inicio>14:00</inicio>
+        <finalizacion>15:30</finalizacion>
+        <dias>2</dias>
+        <profesor>Fiona</profesor>
+        <sala>1</sala>
+    </baile>
+    <baile>
+        <nombre>Ballet</nombre>
+        <precio cuota="mensual" pago="tarjeta">15</precio>
+        <plazas>10</plazas>
+        <inicio>17:00</inicio>
+        <finalizacion>20:00</finalizacion>
+        <dias>5</dias>
+        <profesor>Bruno</profesor>
+        <sala>2</sala>
+    </baile>
+    <baile>
+        <nombre>Salsa</nombre>
+        <precio cuota="diario" pago="efectivo">5</precio>
+        <plazas>30</plazas>
+        <inicio>20:00</inicio>
+        <finalizacion>22:00</finalizacion>
+        <dias>2</dias>
+        <profesor>Bruno</profesor>
+        <sala>2</sala>
+    </baile>
+    <baile>
+        <nombre>Ball de Bot</nombre>
+        <precio cuota="semanal" pago="tarjeta">12</precio>
+        <plazas>26</plazas>
+        <inicio>16:00</inicio>
+        <finalizacion>18:00</finalizacion>
+        <dias>3</dias>
+        <profesor>Sofía</profesor>
+        <sala>3</sala>
+    </baile>
+    <baile>
+        <nombre>Flamenco</nombre>
+        <precio cuota="diario" pago="efectivo">15</precio>
+        <plazas>18</plazas>
+        <inicio>19:00</inicio>
+        <finalizacion>21:00</finalizacion>
+        <dias>3</dias>
+        <profesor>Sofía</profesor>
+        <sala>3</sala>
+    </baile>
+</academia>
