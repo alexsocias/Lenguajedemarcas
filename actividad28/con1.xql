@@ -1,1 +1,2 @@
-1. Mostrar los títulos de los libros con la etiqueta <titulo>.
+for $book in doc("llibreria.xml")/bookstore/book
+return <titulo> {data($book/title)} </titulo>

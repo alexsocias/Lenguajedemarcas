@@ -1,1 +1,3 @@
-8. Mostrar cuántos libros hay, y etiquetarlo con <total>.
+
+for $book in doc ("llibreria.xml")/bookstore
+return <total> {count($book/book)}</total>

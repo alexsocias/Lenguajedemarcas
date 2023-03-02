@@ -1,1 +1,4 @@
-6. Mostrar los años de publicación usando una clausula FLWOR, pero usando “let” para almacenar los resultados intermedios. Etiquetar la salida con <publicación>.
+for $book in doc("llibreria.xml")/bookstore/book
+let $a := data ($book/year)
+let $b := data ($book/title)
+return <publicacion> {$a} ; {$b} </publicacion>

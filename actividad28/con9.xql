@@ -1,1 +1,3 @@
-9. Mostrar los títulos de los libros y al final una etiqueta con el número total de libros.
+for $book in doc("llibreria.xml")/bookstore/book
+let $a := count ($book)
+return <libros> <titulos> {data($book/title)} </titulos> ; <total> {count($book)} </total> </libros>

@@ -1,1 +1,3 @@
-4. Mostrar solo el título (sin etiquetas), sin atributos, de los libros que tengan precio menor o igual a 30.
+for $book in doc("llibreria.xml")/bookstore/book
+where $book/price<=30
+return data($book/title)

@@ -1,1 +1,3 @@
-5. Mostrar el título y el autor de los libros del año 2005, y etiquetar cada uno de ellos con <lib2005><titulo>...</titulo><autor>...</autor>.
+for $book in doc("llibreria.xml")/bookstore/book
+where $book/year=2005
+return <lib2005><titulo>{data($book/title)}</titulo><autor>{data($book/author)}</autor></lib2005>
