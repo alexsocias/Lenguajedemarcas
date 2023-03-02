@@ -1,0 +1,1 @@
+8. Mostrar cuántos libros hay, y etiquetarlo con <total>.
