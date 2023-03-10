@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="salud.xsl" type="text/xsl"?>
+<salud>
+    <servicio>
+        <nombre>Fisoterapia</nombre>
+        <precio cuota="diaria" bono="5 sesiones 160€ y 10 sesiones 300€">35€/h</precio>
+        <plazas reserva="reserva previa">segun reserva</plazas>
+        <dias>Lunes-Viernes</dias>
+        <horario>9:00-13:00/15:00-19:00</horario>
+        <empleado>Chus, Marga, Silvia</empleado>
+    </servicio>
+    <servicio>
+        <nombre>Podologia</nombre>
+        <precio cuota="diaria" bono="5 sesiones 100€ y 10 sesiones 190€">25€/h</precio>
+        <plazas reserva="reserva previa">segun reserva</plazas>
+        <dias>Lunes-Viernes</dias>
+        <horario>9:00-13:00/15:00-19:00</horario>
+        <empleado>Joana</empleado>
+    </servicio>
+    <servicio>
+        <nombre>Psicología</nombre>
+        <precio cuota="diaria" bono="5 sesiones 220€ y 10 sesiones 400€">50€/h</precio>
+        <plazas reserva="reserva previa">segun reserva</plazas>
+        <dias>Lunes-Viernes</dias>
+        <horario>9:00-13:00/15:00-19:00</horario>
+        <empleado>Aina</empleado>
+    </servicio>
+    <servicio>
+        <nombre>Yoga</nombre>
+        <precio cuota="mensual" bono="no dispone">25€/mes</precio>
+        <plazas reserva="apuntarse a grupo">20 personas</plazas>
+        <dias>Lunes, Miercoles y Viernes</dias>
+        <horario>11:00 a 12:30/17:00 a 18:30</horario>
+        <empleado>Biel, Alex</empleado>
+    </servicio>
+    <servicio>
+        <nombre>Pilates</nombre>
+        <precio cuota="mensual" bono="no dispone">30€/mes</precio>
+        <plazas reserva="apuntarse a grupo">25 personas</plazas>
+        <dias>Martes, Jueves y Viernes</dias>
+        <horario>10:00 a 11:30/16:00 a 17:30</horario>
+        <empleado>Tolo</empleado>
+    </servicio>
+    <servicio>
+        <nombre>Meditación guiada</nombre>
+        <precio cuota="mensual" bono="no dispone">35€/mes</precio>
+        <plazas reserva="apuntarse a grupo">10 personas</plazas>
+        <dias>Lunes-Viernes</dias>
+        <horario>10;00 a 11:00/19:00 a 20:00</horario>
+        <empleado>Biel, Alex</empleado>
+    </servicio>
+    
+</salud>    
