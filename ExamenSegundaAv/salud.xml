@@ -40,8 +40,8 @@
         <dias>Martes, Jueves, Viernes</dias>
         <horario>10:00 a 11:30, 16:00 a 17:30</horario>
         <empleado>Tolo</empleado>
-    </servicio>
-    <servicio>
+    </servicio>         
+    <servicio>  
         <nombre>Meditación guiada</nombre>
         <precio cuota="mensual" bono="no dispone">35€/mes</precio>
         <plazas reserva="apuntarse a grupo">10 personas</plazas>

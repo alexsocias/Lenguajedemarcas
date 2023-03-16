@@ -42,8 +42,6 @@
                     <h4><a class="text-warning" href="https://alexsocias.cf/">Aviso legal</a></h4>
                     <h4><a class="text-warning" href="https://alexsocias.cf/">Política de privacidad</a></h4>
                     <h4><a class="text-warning" href="https://alexsocias.cf/">Política de cookies</a></h4>
-                    <h3 class="text-warning">Web creada por: Alex Socías</h3>
-
 
                 </footer>
             </xsl:for-each>
