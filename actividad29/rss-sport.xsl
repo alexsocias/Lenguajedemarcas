@@ -11,7 +11,7 @@
             <head>
                 <link rel="stylesheet" href="css/bootstrap.min.css"/>
                 <link rel="stylesheet" href="index.css"/>
-                <title>El País</title>
+                <title><xsl:value-of select="title"></xsl:value-of></title>
             </head>
             <body>
                 <div>
